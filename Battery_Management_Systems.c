@@ -5,7 +5,7 @@ int Check_battery_Value_Is_Ok(float temperature, float stateofcharge, float char
   if(temperature < 0 || temperature > 45) {
     printf("Temperature out of range!\n");
     return 0;
-  } else if(soc < 20 || stateofcharge > 80) {
+  } else if(stateofcharge < 20 || stateofcharge > 80) {
     printf("State of Charge out of range!\n");
     return 0;
   } else if(chargeRate > 0.8) {
