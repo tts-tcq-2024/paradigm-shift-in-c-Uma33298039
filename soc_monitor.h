@@ -7,4 +7,4 @@ extern const float SOC_WARNING_TOLERANCE;
 
 int isSocOk(float soc);
 
-#endif /* SOC_MONITOR_H */
+#endif 
