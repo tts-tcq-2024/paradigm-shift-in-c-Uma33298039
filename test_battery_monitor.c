@@ -12,8 +12,8 @@ int main() {
     assert(!batteryIsOk(46, 50, 0.7));  // Temperature above upper limit
 
     // SOC out of range
-    assert(!batteryIsOk(35, 15, 0.7));  // SOC below lower limit
-    assert(!batteryIsOk(35, 85, 0.7));  // SOC above upper limit
+    assert(!batteryIsOk(35, 15, 0.7));  // SOCKET below lower limit
+    assert(!batteryIsOk(35, 85, 0.7));  // SOCKET above upper limit
 
     // Charge rate out of range
     assert(!batteryIsOk(35, 50, 0.9));  // Charge rate above upper limit
