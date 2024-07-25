@@ -7,4 +7,4 @@ extern const float TEMPERATURE_WARNING_TOLERANCE;
 
 int isTemperatureOk(float temperature);
 
-#endif /* TEMPERATURE_MONITOR_H */
+#endif 
