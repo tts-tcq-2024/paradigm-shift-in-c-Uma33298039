@@ -1,5 +1,5 @@
 #include "temperature_monitor.h"
-#include "battery_monitor.h"  // Include battery_monitor.h for printMessage function
+#include "battery_monitor.h"  // printMessage function
 
 const float TEMPERATURE_LOWER_LIMIT = 0.0;
 const float TEMPERATURE_UPPER_LIMIT = 45.0;
