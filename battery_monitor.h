@@ -16,4 +16,4 @@ int isInRange(float value, float max, const char* Message);
 int isChargeRateOk(float chargeRate);
 int batteryIsOk(float temperature, float soc, float chargeRate);
 
-#endif /* BATTERY_MONITOR_H */
+#endif 
