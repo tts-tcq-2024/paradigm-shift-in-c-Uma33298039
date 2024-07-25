@@ -10,7 +10,6 @@ int isChargeRateOk(float chargeRate) {
     }
     return inRange;
 }
-
 int batteryIsOk(float temperature, float soc, float chargeRate) {
     return isTemperatureOk(temperature) && isSocOk(soc) && isChargeRateOk(chargeRate);
 }
