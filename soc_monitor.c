@@ -1,5 +1,5 @@
 #include "soc_monitor.h"
-#include "battery_monitor.h"  // Include battery_monitor.h for printMessage function
+#include "battery_monitor.h"  //printMessage function
 
 const float SOC_LOWER_LIMIT = 20.0;
 const float SOC_UPPER_LIMIT = 80.0;
