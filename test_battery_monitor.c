@@ -18,7 +18,5 @@ int main() {
     // Charge rate out of range
     assert(!batteryIsOk(35, 50, 0.9));  // Charge rate above upper limit
 
-   // printf("All tests passed!\n");
-
     return 0;
 }
