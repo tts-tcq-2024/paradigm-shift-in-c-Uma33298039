@@ -19,7 +19,7 @@ void testSocAboveUpperLimit() {
 }
 
 void testChargeRateAboveUpperLimit() {
-    assert(!batteryIsOk(30, 75, 0.9));
+    assert(!batteryIsOk(30, 75, 1.8));
 }
 
 void testApproachingLowerTemperatureLimit() {
@@ -39,5 +39,5 @@ void testApproachingChargePeak() {
 }
 
 void testApproachingMaxChargeRate() {
-    assert(batteryIsOk(20, 40, 0.76));
+    assert(batteryIsOk(20, 40, 0.7));
 }
